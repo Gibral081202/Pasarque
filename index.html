@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PasarQue - Company Profile</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <img src="image/Logo PasarQue.png" alt="Logo PasarQue" class="logo" />
+      <nav>
+        <ul>
+          <li><a href="#home">Beranda</a></li>
+          <li><a href="#produk">Produk</a></li>
+          <li><a href="#tentang-kami">Tentang Kami</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+      <!-- Ikon Sosial Media -->
+      <div class="social-icons">
+        <a href="https://www.tokopedia.com" target="_blank">
+          <img src="image/tokopedia-logo-png_seeklogo-373974.png" alt="Tokopedia" />
+        </a>
+        <a href="https://vt.tiktok.com/ZSjDkLThM/?page=Mall" target="_blank">
+          <img src="image/tiktoklogo.jpg" alt="TikTok" />
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+          <img src="image/Instagram-logo-premium-vector-PNG.png" alt="Instagram" />
+        </a>
+        <a href="https://shopee.co.id" target="_blank">
+          <img src="image/shopee.png" alt="Shopee" />
+        </a>
+      </div>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner">
+      <div class="overlay">
+        <h1>Selamat Datang di PasarQue</h1>
+        <p>Toko online dengan produk kebersihan rumah berkualitas</p>
+      </div>
+    </section>
+
+    <!-- Produk -->
+    <section id="produk" class="page-section produk-section produk-info">
+      <h2>Produk Kami</h2>
+      <div class="produk-container">
+        <div class="produk-card card-hidden" onclick="beliProduk('https://vt.tokopedia.com/t/ZSjD2hyHq/')">
+          <img src="image/Kilau Lemon_1.jpg" alt="Produk 1" />
+          <h3>Sabun Cuci Piring</h3>
+          <h3>Kilau Lemon</h3>
+          <p>500 ML</p>
+          <span class="harga">Rp 12.500</span>
+          <a href="https://vt.tokopedia.com/t/ZSjD2hyHq/" target="_blank" class="beli-btn">Beli</a>
+        </div>
+        <div class="produk-card card-hidden" onclick="beliProduk('https://vt.tokopedia.com/t/ZSjD2BHd7/')">
+          <img src="image/TermKiller1.png" alt="Produk 2" />
+          <h3>Spray Anti Rayap</h3>
+          <h3>Term Killer</h3>
+          <p>250 ML</p>
+          <span class="harga">Rp 17.500</span>
+          <a href="https://vt.tokopedia.com/t/ZSjD2BHd7/" target="_blank" class="beli-btn">Beli</a>
+        </div>
+        <!-- Tambahkan produk lainnya di sini -->
+      </div>
+    </section>
+
+    <section id="tentang-kami" class="page-section tentang-section">
+      <div class="tentang-container">
+        <h2>Tentang PasarQue</h2>
+        <p>PasarQue adalah toko online yang menyediakan produk kebersihan rumah berkualitas tinggi untuk memenuhi kebutuhan rumah tangga Anda. Kami berkomitmen untuk menghadirkan produk terbaik dengan harga yang terjangkau.</p>
+
+        <div class="tentang-cards">
+          <div class="card card-hidden">
+            <img src="image/mission1-removebg-preview.png" alt="Icon Misi" class="icon" />
+            <h3>Misi Kami</h3>
+            <p>Memberikan produk kebersihan rumah yang ramah lingkungan dan efektif, membantu menjaga kebersihan rumah Anda dengan cara yang aman dan efisien.</p>
+          </div>
+          <div class="card card-hidden">
+            <img src="image/vission1LB.png" alt="Icon Visi" class="icon" />
+            <h3>Visi Kami</h3>
+            <p>Menjadi brand kebersihan rumah yang terpercaya di Indonesia, dengan produk berkualitas yang mendukung gaya hidup sehat dan bersih.</p>
+          </div>
+          <div class="card card-hidden">
+            <img src="image/nilai.png" alt="Icon Nilai" class="icon" />
+            <h3>Nilai Kami</h3>
+            <p>Kami menghargai kualitas, kepercayaan, dan kepuasan pelanggan sebagai prioritas utama dalam setiap produk yang kami tawarkan.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontak Kami -->
+    <section id="kontak" class="page-section kontak-section">
+      <h2>Kontak Kami</h2>
+      <p>Email: info@pasarque.com | Telepon: 0812-3456-7890</p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

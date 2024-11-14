@@ -1,0 +1,371 @@
+/* Style untuk website PasarQue */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style untuk Header */
+header {
+  background: linear-gradient(135deg, #ffa500, #ffb347);
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.logo {
+  height: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Ikon Sosial Media */
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons img {
+  width: 40px; /* Ukuran ikon media sosial */
+  height: 40px; /* Pastikan ikon memiliki tinggi yang sama */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
+/* Style untuk banner */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.banner {
+  background-image: url("image/Sale.jpg"); /* Ganti dengan path gambar latar belakang */
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: #fff;
+}
+
+.overlay {
+  background-color: rgba(128, 128, 128, 0.6); /* Warna abu-abu transparan */
+  padding: 20px;
+  text-align: center;
+  max-width: 80%;
+  border-radius: 8px;
+}
+
+.overlay h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.overlay p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.produk-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.produk-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.produk-card {
+  background-color: #f3f3f3;
+  width: 200px;
+  padding: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.produk-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.produk-card h3 {
+  color: #ffa500;
+}
+
+.harga {
+  color: #008000;
+  font-weight: bold;
+}
+/* Style untuk Bagian Produk */
+.produk-section {
+  background: linear-gradient(135deg, #ffb347, #b5fffc);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.produk-section h2 {
+  font-size: 2.5em;
+  color: #ffa500;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.produk-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.produk-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 220px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container {
+  width: 100%;
+  height: 150px; /* Menentukan tinggi yang konsisten untuk gambar */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.produk-image {
+  width: auto;
+  height: 100%; /* Pastikan gambar memenuhi tinggi container */
+  max-width: 100%;
+}
+
+.produk-info {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.produk-info h3 {
+  color: #ffa500;
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.produk-info p {
+  font-size: 0.9em;
+  color: #666;
+  margin: 0;
+}
+
+.harga {
+  color: #008000;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.beli-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #ffa500;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s ease;
+}
+
+.beli-btn:hover {
+  background-color: #cc8400;
+  transform: scale(1.05);
+}
+
+/* Style untuk bagian Tentang Kami */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.tentang-section {
+  background: linear-gradient(135deg, #b5fffc, #e0eaff);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.tentang-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.tentang-section h2 {
+  font-size: 2.5em;
+  color: #ffa500; /* Warna oranye utama */
+  margin-bottom: 20px;
+}
+
+.tentang-section p {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.tentang-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+  width: 70px; /* Mengubah ukuran ikon menjadi 70px */
+  height: 70px; /* Tambahkan tinggi agar proporsional */
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-size: 1.4em;
+  color: #ffa500;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1em;
+  color: #666;
+}
+.kontak-section {
+  background: linear-gradient(135deg, #e0eaff, #fffae6);
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.kontak-section h2 {
+  color: #ffa500;
+  margin-bottom: 20px;
+}
+.kontak-section p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.kontak-section a {
+  color: #008000;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.kontak-section a:hover {
+  color: #005500;
+}
+h2 {
+  color: #ffa500;
+}
+/* Animasi Muncul untuk Seluruh Halaman */
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.95) translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* Kelas untuk Menyembunyikan Elemen Secara Default */
+.page-loaded {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+  animation: fadeInScale 1s ease forwards;
+}
+
+/* Menyembunyikan Elemen Sebelum Halaman Dimuat */
+body,
+.main-content {
+  opacity: 0;
+  transform: scale(0.95) translateY(30px);
+}
+/* Animasi Muncul dari Bawah */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Style untuk Card yang Tersembunyi */
+.card-hidden {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Style untuk Card yang Ditampilkan */
+.card-visible {
+  animation: fadeInUp 0.6s ease forwards;
+}
